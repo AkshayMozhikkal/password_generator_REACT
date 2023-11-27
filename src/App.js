@@ -4,31 +4,20 @@ import Home from "./Pages/Home";
 import { CustomNavbar } from "./Components/CustomNavbar";
 import { CustomFooter } from "./Components/CustomFooter";
 
-
-
-function App(){
-
-
-  return(
+function App() {
+  return (
     <div>
       <CustomNavbar></CustomNavbar>
       <div className="flex items-center justify-center">
-      <Router>
-        <Routes>
-          <Route path="/" element={<Home/>} />
-          
-        </Routes>
-
-      </Router>
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </Router>
       </div>
-      <CustomFooter/>
-      
-      
-      
-
+      <CustomFooter />
     </div>
-  )
-
+  );
 }
 
 export default App;
