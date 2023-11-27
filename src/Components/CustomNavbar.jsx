@@ -41,13 +41,7 @@ export function CustomNavbar() {
               className: "min-w-[288px]",
             }}
           />
-          <Button
-            size="sm"
-            color="white"
-            className="!absolute right-1 top-1 rounded"
-          >
-            Search
-          </Button>
+          
         </div>
       </div>
     </Navbar>
